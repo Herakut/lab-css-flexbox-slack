@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head class="heads">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -17,11 +17,11 @@
 </head>
 
 <body>
-  <nav>
-    <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+  <nav class="conMenu">
+    <div class="menu-derecha">
+      <img src="./images/slack-logo.png" alt="Slack logo" class="logoSlack"  />
 
-      <ul>
+      <ul class="menu-oculto">
         <li>
           <a href="#">Product</a>
         </li>
@@ -37,13 +37,13 @@
       </ul>
     </div>
 
-    <div>
-      <button>
-        <img src="./images/icon-search.png" alt="Search icon">
+    <div class="menu-izquierda">
+      <button class="boton-nav">
+        <img src="./images/icon-search.png" alt="Search icon" class="nav-button-img" >
       </button>
 
-      <button>
-        <img src="./images/icon-menu.png" alt="Menu icon">
+      <button class="boton-nav">
+        <img  src="./images/icon-menu.png" alt="Menu icon" class="nav-button-img">
       </button>
 
       <ul hidden>
@@ -56,29 +56,31 @@
       </ul>
     </div>
   </nav>
-
-  <header>
+  
+  <header class="back-color">
     <div>
-      <h1>Great teamwork starts with a digital HQ</h1>
+      <h1 class="encabezado">Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p class="freeSlack"> <a href="https://slack.com/intl/es-es/downloads/windows" target="_blank"><span class="freelettering">Slack is free</span> </a>to try for as long as you'd like.</p>
+      <ul>        
+        <div>
+          <li><button class="sign-up-button">
+           <b>Sign up with email</b> 
+          </button></li>
 
-      <div>
-        <button>Sign up with email</button>
-
-        <button>
-          <img src="./images/logo-google.png" alt="Google logo" />
-          <span>Sign up with Google</span>
-        </button>
-      </div>
-
+          <li><button class="google-button">
+            <img src="./images/logo-google.png" width="50" height="50" alt="Google logo" class="google-logo" />
+            <span><b>Sign up with Google</b></span>
+          </button></li>
+    </div>
+    </ul>
     </div>
 
     <div>
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
-
+/***************************LILA*****************************************************************/
   <main>
     <section>
       <p>Trusted by companies all over the world</p>
