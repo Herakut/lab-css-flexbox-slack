@@ -71,9 +71,9 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 body {
-    
+    font-size: 20px;
    margin: 0;
-   color: white;
+   background-color:#F3EAE2 ;
 }
 nav {
     background-color: #540B51;
@@ -86,6 +86,11 @@ img {
 }
 .back-color {
     background-color: #540B51;
+
+}
+a {
+    text-decoration: none;
+    border-bottom: none;
 }
 /***********************************************************************/
 .conMenu {
@@ -123,14 +128,12 @@ nav ul{
     text-align: center;
     margin: 20px;
 }
-.heads
+
 
 
 
 /*****************************Primera section, parte desde slack free hacia delante********************************/
-a {
-    text-decoration: none;
-}
+
 .freeSlack {
     text-align: center;
     font-size: 1.2rem;
@@ -158,25 +161,154 @@ ul {
     color:#540B51;
     margin-bottom: 10px;
     width: 600px;
+    font-size: 1rem;
 }
 .google-logo {
     margin-left: 4px;
     background-color: white;
     margin-top: 3px;
+    position: relative;
+    right: 175px;
+    
  
 }
 
 .google-button {  
-   
+    
     text-transform: uppercase;
     background-color:#4285F4;  
     width: 600px;  
+    border:none;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color:white;
+    
 }
 
-.google-button {    
-    background-color:#4285F4;
-    color: white;    
+
+/****************************************de trusted a hacia abajo*********************************/
+
+.brand-container {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+.brand-container-img {
+    margin: 10px;   
+}
+.trusted {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+
+    margin-bottom: 20px; 
+    text-transform: uppercase;
+}
+.h-slogan {
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+
+    margin-bottom: 20px; 
+    text-transform: uppercase;
+}
+.learn-slogan {
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 100px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+
+}
+/****************************************/
+.white-section {
+    padding-top: 90px;
+background-color: white;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around; 
+    align-items: center;   
+    padding: 20px;
+    margin: 0;
+    list-style: none;
     border: none;
     
 }
-/*puede y solo puede que el tamaño sea diferente por el contenido*/
+.div-container-button-purple{
+    padding: 20px 110px;
+    text-transform: uppercase;
+    color:#ffffff;
+    margin-bottom: 10px;
+    width: 600px;
+    font-size: 1rem;
+    border:none;
+    background-color: #540B51;
+}
+
+.div-container-button-white{
+    padding: 20px 110px;
+    text-transform: uppercase;
+    color:#540B51;
+    margin-bottom: 10px;
+    width: 600px;
+    font-size: 1rem;
+    box-shadow: none;
+    border: 2px solid #540B51;
+    
+}
+/**************************************************************************************TEAMS****************************/
+.porcentages-container{
+    flex-direction: column;
+
+}
+.porcentages {
+    font-size: 5rem;
+    color: #540B51;
+    text-align: center;
+}
+.porcentages-letter {
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 100px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+}
+
+.section-purple{
+    background-color:#540B51;
+    padding-top: 50px;
+
+}
+.letter-section-purple {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+
+    margin-bottom: 20px; 
+    text-transform: uppercase;
+}
+.div-container-button-purple-2 {
+    padding: 20px 110px;
+    text-transform: uppercase;
+    color:#ffffff;
+    margin-bottom: 10px;
+    width: 600px;
+    font-size: 1rem;
+    background-color: #540B51;
+    box-shadow: none;
+    border: 2px solid #ffffff;
+    
+}
+
+
